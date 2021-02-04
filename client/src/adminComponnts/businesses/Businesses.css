@@ -1,0 +1,25 @@
+.Businesses_page {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.Businesses_page .go_back {
+  height: 42px;
+  width: 125px;
+  margin-bottom: 0px;
+}
+.Businesses_page h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.Businesses_page .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+.Businesses_page .buttons button {
+  height: 50px;
+}

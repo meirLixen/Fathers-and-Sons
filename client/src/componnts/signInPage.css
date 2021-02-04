@@ -1,0 +1,19 @@
+.sign_in_page .email_and_password::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.sign_in_page .email_and_password:-moz-placeholder {
+  text-align: right;
+}
+.sign_in_page .icon_gear {
+  height: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}

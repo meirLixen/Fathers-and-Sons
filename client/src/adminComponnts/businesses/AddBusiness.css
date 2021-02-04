@@ -1,0 +1,29 @@
+.add_business .add_business_input::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.add_business .add_business_input:-moz-placeholder {
+  text-align: right;
+}
+.add_business .go_back {
+  margin-left: 6vw;
+
+  margin-bottom: 10px;
+  height: 42px;
+  width: 125px;
+}
+.add_business .span_icon_gear {
+  left: 0px;
+}
+.add_business .icon_gear {
+  height: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}

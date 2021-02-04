@@ -1,0 +1,43 @@
+.edit_business .edit_business_input::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.edit_business .edit_business_input:-moz-placeholder {
+  text-align: right;
+}
+.edit_business .go_back {
+  margin-left: 6vw;
+
+  margin-bottom: 10px;
+  height: 42px;
+  width: 125px;
+}
+.edit_business .label_and_input {
+  position: relative;
+}
+.edit_business label {
+  position: absolute;
+  top: 9px;
+  right: -110px;
+  opacity: 50%;
+  font-size: 14px;
+  color: red;
+  display: block;
+  width: 100px;
+  text-align: end;
+}
+.edit_business .span_icon_gear {
+  left: 0px;
+}
+.edit_business .icon_gear {
+  height: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}

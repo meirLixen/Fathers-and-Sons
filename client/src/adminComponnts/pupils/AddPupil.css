@@ -1,0 +1,29 @@
+.add_pupil .add_pupil_input::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.add_pupil .add_pupil_input:-moz-placeholder {
+  text-align: right;
+}
+.add_pupil .go_back {
+  margin-left: 6vw;
+
+  margin-bottom: 10px;
+  height: 42px;
+  width: 125px;
+}
+.add_pupil .span_icon_gear {
+  left: 0px;
+}
+.add_pupil .icon_gear {
+  height: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}

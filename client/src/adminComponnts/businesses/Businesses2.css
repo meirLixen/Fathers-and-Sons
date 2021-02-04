@@ -1,0 +1,12 @@
+.change_points {
+  width: 80px;
+  margin-right: 7px;
+  border: solid red 1px;
+}
+.change_points::-webkit-input-placeholder {
+  font-size: 10px;
+}
+
+.change_points:-moz-placeholder {
+  font-size: 10px;
+}

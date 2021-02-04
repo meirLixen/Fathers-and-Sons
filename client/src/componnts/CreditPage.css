@@ -1,0 +1,55 @@
+.credit_page {
+  height: 100vh;
+  align-items: center;
+  flex-flow: column;
+  display: flex;
+  margin-top: 26vh;
+}
+.credit_page .price {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: red;
+}
+.credit_page div {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credit_page input:focus {
+  caret-color: white;
+
+  outline-color: black;
+  /* border-color: black;  */
+}
+.credit_page input {
+  border: solid 1px #00000010;
+}
+.credit_page .icon_gear {
+  height: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.credit_page svg {
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.credit_page path {
+  opacity: 1;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}
