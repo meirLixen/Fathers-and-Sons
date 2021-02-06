@@ -1,7 +1,7 @@
 const { Pool } = require("pg");
 const pgConfig = require("../../adminComponnts/tables/pgConfig");
 const pool = new Pool(pgConfig);
-
+const writeDealInDB = require("./4writeDealInDB");
 module.exports = async function reducesPointsToPupil(
   data,
   callbackForResponse
@@ -17,7 +17,7 @@ module.exports = async function reducesPointsToPupil(
         .query(query)
         .then((v) => {
           client.release();
-          callbackForResponse("ok");
+          writeDealInDB(data, callbackForResponse);
         })
         .catch((err) => {
           client.release();

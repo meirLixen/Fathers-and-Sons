@@ -28,3 +28,4 @@ module.exports = async function createTableBusinesses() {
     })
     .catch((err) => console.error(err));
 };
+// amountToPay

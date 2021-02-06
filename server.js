@@ -20,6 +20,7 @@ require("./adminComponnts/businesses/addBusiness/addBusinessListen")(app);
 require("./adminComponnts/businesses/deleteBusiness/deleteBusinessListen")(app);
 require("./adminComponnts/businesses/editBusiness/editBusinessListen")(app);
 // create tables in DB
+require("./adminComponnts/tables/createTableDeals")();
 require("./adminComponnts/tables/createExtensionUuidossp")();
 require("./adminComponnts/tables/createTableAdmin")();
 require("./adminComponnts/tables/createTablePupils")();

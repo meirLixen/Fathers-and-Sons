@@ -119,7 +119,7 @@ function Pupils() {
         <button
           ref={buttonSubmit}
           onClick={() => onSavePoints()}
-          className="add_pupil relative h-20 w-40 m-4 flex justify-center items-center border border-transparent text-sm text-xl font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="relative h-20 w-40 m-4 flex justify-center items-center border border-transparent text-sm text-xl font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <span className="span_icon_gear absolute inset-y-0 flex items-center pl-3">
             <img
