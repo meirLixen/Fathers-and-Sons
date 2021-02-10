@@ -102,6 +102,22 @@ function EditBusiness() {
                     />
                   </div>
                   <div className="label_and_input">
+                    <label htmlFor="amountToPay">סכום לתשלום:</label>
+                    <input
+                      id="amountToPay"
+                      value={business.amountToPay.toString()}
+                      type="text"
+                      pattern="\d{1,3}(?:[.]\d{2})"
+                      required
+                      className="edit_business_input appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                      placeholder="אמייל"
+                      onChange={(e) => {
+                        business.amountToPay = e.target.value;
+                        setBusiness({ ...business });
+                      }}
+                    />
+                  </div>
+                  <div className="label_and_input">
                     <label htmlFor="lastName">אמייל:</label>
                     <input
                       id="email"

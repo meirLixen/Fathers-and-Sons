@@ -56,7 +56,7 @@ function EnterDealDetails() {
                         id="price"
                         value={dealDetails.price}
                         type="text"
-                        pattern="\d{1,3}(?:[.,]\d{2})"
+                        pattern="\d{1,3}(?:[.]\d{2})"
                         maxLength="6"
                         required
                         className="edit_business_input appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm "

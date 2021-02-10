@@ -23,6 +23,11 @@ function EditPupil() {
     } else if (!globalState.temporaryStorage) {
       return history.push("/admin_pupils");
     }
+
+    if (!pupil.numberFromCard) {
+      pupil.numberFromCard = 0;
+      setPupil({ ...pupil });
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const goBack = () => history.push("/admin_pupils");
@@ -51,7 +56,7 @@ function EditPupil() {
 
   return (
     <div className="edit_pupil">
-      {!pupil ? null : (
+      {pupil?.numberFromCard === null ? null : (
         <div>
           <button
             onClick={goBack}

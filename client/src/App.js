@@ -14,6 +14,7 @@ import EditPupil from "./adminComponnts/pupils/EditPupil";
 import AddBusiness from "./adminComponnts/businesses/AddBusiness";
 import EditBusiness from "./adminComponnts/businesses/EditBusiness";
 import EnterDealDetails from "./componnts/EnterDealDetails";
+import Deals from "./adminComponnts/deals/Deals";
 const UserProvider = UserContext.Provider;
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
             {/* admin componnts */}
             <Route exact path="/admin">
               <Admin />
+            </Route>
+            <Route exact path="/admin_deals">
+              <Deals />
             </Route>
             <Route exact path="/admin_add_business">
               <AddBusiness />

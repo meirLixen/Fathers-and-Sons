@@ -1,6 +1,6 @@
 var jwt = require("jsonwebtoken");
 const { Pool } = require("pg");
-const pgConfig = require("../adminComponnts/tables/pgConfig");
+const pgConfig = require("../tables/pgConfig");
 const pool = new Pool(pgConfig);
 
 function verifyToken(req, res, next) {

@@ -1,10 +1,10 @@
-import "./Businesses2.css";
+import "./Deals2.css";
 
-function Businesses2(props) {
+function Deals2(props) {
   const element = props.element;
   const index = props.index;
-  const onDeletePupil = props.onDeletePupil;
-  const editPupil = props.editPupil;
+  //   const onDeletePupil = props.onDeletePupil;
+  //   const editPupil = props.editPupil;
 
   return (
     <tr key={index}>
@@ -41,7 +41,7 @@ function Businesses2(props) {
       <td className="px-6 py-4 text-sm text-gray-500">
         {element.moreDetails ? element.moreDetails : "..."}
       </td>
-      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+      {/* <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
         <button
           onClick={() => editPupil(element)}
           className="text-indigo-600 hover:text-indigo-900"
@@ -55,8 +55,8 @@ function Businesses2(props) {
         >
           מחק
         </button>
-      </td>
+      </td> */}
     </tr>
   );
 }
-export default Businesses2;
+export default Deals2;
