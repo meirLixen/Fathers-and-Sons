@@ -1,0 +1,21 @@
+.home_page {
+  flex-flow: column;
+  margin-top: 32vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home_page svg {
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.home_page path {
+  opacity: 1;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}

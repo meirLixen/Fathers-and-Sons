@@ -1,0 +1,16 @@
+module.exports = {
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
+  // host: "ec2-54-211-77-238.compute-1.amazonaws.com",
+  // port: 5432,
+  // user: "kdgespsnatzyfi",
+  // password: "06bebb0304fb3daef39dda22b1ec2459081f52acc149ea897b942c514df582c2",
+  // database: "d35eqqv3b0mu00",
+  // ssl: true,
+  // max: 40,
+  // idleTimeoutMillis: 0,
+  // connectionTimeoutMillis: 0,
+};

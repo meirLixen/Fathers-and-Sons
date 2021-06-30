@@ -1,0 +1,21 @@
+.link_to_admin {
+  color: blue;
+  font-size: 19px;
+  text-decoration: underline;
+  animation-name: link_to_admin;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  margin: 5px;
+}
+@keyframes link_to_admin {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  
+  100%{
+      color: blue;
+  }
+}

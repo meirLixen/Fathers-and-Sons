@@ -1,0 +1,7 @@
+.admin_page {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  margin-top: 30vh;
+  justify-content: center;
+}

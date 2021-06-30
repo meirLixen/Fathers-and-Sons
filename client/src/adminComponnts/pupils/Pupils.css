@@ -1,0 +1,40 @@
+.pupils_page {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.pupils_page .go_back {
+  height: 42px;
+  width: 125px;
+  margin-bottom: 0px;
+}
+.pupils_page h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.pupils_page .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+.pupils_page .buttons button {
+  height: 50px;
+}
+.pupils_page .span_icon_gear {
+  left: -13px;
+}
+.pupils_page .icon_gear {
+  height: 20px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes example {
+  100% {
+    transform: rotate(360deg);
+  }
+}
